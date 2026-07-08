@@ -1,4 +1,6 @@
-const createFormHelper = (action: string, method: string = 'post') => ({
+type FormMethod = 'delete' | 'get' | 'post' | 'put' | 'patch';
+
+const createFormHelper = (action: string, method: FormMethod = 'post') => ({
     action,
     method,
 });
