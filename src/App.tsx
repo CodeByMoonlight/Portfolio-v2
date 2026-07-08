@@ -22,7 +22,7 @@ export default function Welcome() {
   const [isAtTop, setIsAtTop] = useState(true);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const resumeHref = "/build/assets/Resume.pdf";
+  const resumeHref = "/public/Resume.pdf";
 
   useEffect(() => {
     document.title = "Alijah Valle | Portfolio";
@@ -224,10 +224,7 @@ export default function Welcome() {
                 className="col-start-2 col-end-3 flex w-full flex-col items-center justify-center gap-20 md:flex-row md:gap-10 xl:gap-36"
               >
                 <div className="flex w-full justify-center md:w-1/2 xl:p-12">
-                  <img
-                    src="src/assets/asset-1.gif"
-                    alt="Description of image"
-                  />
+                  <img src="public/asset-1.gif" alt="Description of image" />
                 </div>
                 <div className="flex w-full flex-col items-center gap-4 md:w-1/2 md:items-start">
                   <h2 className="text-center font-semibold tracking-wider text-home-purple uppercase md:text-left">
