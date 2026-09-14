@@ -48,10 +48,10 @@ export default function Navigation({
             className={`pointer-events-none absolute transition-[top,right,bottom,left,border-radius,background-color,box-shadow,backdrop-filter,opacity,transform] duration-250 ease-[cubic-bezier(0.22,1,0.36,1)] will-change-[top,right,bottom,left,border-radius,background-color,box-shadow,backdrop-filter,opacity,transform] ${navBgMobile} ${navChromeMobile}`}
           />
           <div className={`relative ${navContentInsetMobile}`}>
-            <div className="pointer-events-auto flex w-full items-center justify-between p-2">
+            <div className="pointer-events-auto flex w-full items-center justify-between p-0.5 mx-0.5">
               <span
                 onClick={scrollToTop}
-                className="flex h-8 w-8 items-center justify-center rounded-full border border-home-purple/30 bg-home-purple/10 p-1 text-sm font-semibold text-home-dark-purple uppercase transition-all duration-300 hover:cursor-pointer hover:bg-home-purple/20 hover:shadow-lg lg:h-10 lg:w-10 lg:p-2 lg:text-lg"
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-home-purple/30 bg-home-purple/10 p-1 text-sm font-semibold text-home-dark-purple uppercase transition-all duration-300 hover:cursor-pointer hover:bg-home-purple/20 hover:shadow-lg lg:h-10 lg:w-10 lg:p-2 lg:text-lg"
               >
                 <p>av</p>
               </span>

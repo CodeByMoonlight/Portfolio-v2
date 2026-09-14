@@ -148,7 +148,7 @@ export default function Welcome() {
                   <ScrollReveal
                     direction="up"
                     delay={600}
-                    className="text-center text-5xl leading-14 font-bold text-gray-800/94 lg:text-[64px] lg:leading-20"
+                    className="text-center text-4xl leading-12 font-bold text-gray-800/94 lg:text-[64px] lg:leading-20"
                   >
                     Greetings! I'm <AuroraText>Alijah Valle</AuroraText>. I
                     solve problems one query at a time
@@ -230,7 +230,7 @@ export default function Welcome() {
                   <h2 className="text-center font-semibold tracking-wider text-home-purple uppercase md:text-left">
                     About Me
                   </h2>
-                  <h1 className="text-center text-3xl font-bold text-gray-800/94 md:text-left md:text-4xl">
+                  <h1 className="text-center leading-12 text-3xl font-bold text-gray-800/94 md:text-left md:text-4xl">
                     Eager to Learn, Ready to Build
                   </h1>
                   <p className="flex flex-col gap-4 text-center text-base leading-7 text-gray-700 md:text-left lg:text-lg lg:leading-8">
@@ -274,7 +274,7 @@ export default function Welcome() {
                   <h2 className="text-center font-semibold tracking-wider text-home-purple uppercase md:text-left">
                     Toolkit
                   </h2>
-                  <h1 className="text-center text-4xl font-bold text-gray-800/94 md:text-left">
+                  <h1 className="text-center leading-12 text-4xl font-bold text-gray-800/94 md:text-left">
                     Technologies & Tools
                   </h1>
                 </ScrollReveal>
