@@ -58,7 +58,7 @@ export default function Navigation({
 
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="rounded-full p-2 text-home-dark-purple/80 transition-colors duration-300 ease-in-out hover:text-home-dark-purple"
+                className="rounded-full p-2 text-home-dark-purple/80 transition-colors duration-300 ease-in-out hover:text-home-dark-purple mx-1"
               >
                 <MenuIcon width={24} height={24} />
               </button>
@@ -73,7 +73,7 @@ export default function Navigation({
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex h-full flex-col items-end gap-4 p-4 pt-6.5">
+        <div className="flex h-full flex-col items-end gap-4 p-4 pt-4.5">
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="w-fit rounded-full p-2 text-home-dark-purple transition-colors duration-300 ease-in-out"

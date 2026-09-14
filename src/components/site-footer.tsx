@@ -19,7 +19,7 @@ export function SiteFooter({ onLogoClick }: SiteFooterProps) {
       >
         av
       </span>
-      <span className="col-start-2 flex items-center justify-center gap-2 text-gray-800 lg:gap-4">
+      <span className="col-start-2 flex items-center justify-center gap-1 md:gap-2 text-gray-800 lg:gap-4">
         <a
           href="https://github.com/CodeByMoonlight"
           className="cursor-pointer rounded-full border border-gray-800 bg-home-yellow p-1 sm:p-1.5 transition-all duration-300 hover:-translate-y-1 hover:border-home-dark-purple hover:bg-[#E3E6F7] hover:text-home-dark-purple hover:shadow-lg"
@@ -51,8 +51,9 @@ export function SiteFooter({ onLogoClick }: SiteFooterProps) {
           <IconBrandInstagram className="h-5 w-5 lg:h-6 lg:w-6" stroke={1.5} />
         </a>
       </span>
-      <span className="col-start-3 text-right text-[10px] sm:text-sm text-gray-800">
-        ©2026 All Rights Reserved.
+      <span className="col-start-3 text-right text-sm text-gray-800">
+        <span className="sm:hidden">©2026</span>
+        <span className="hidden sm:inline">©2026 All Rights Reserved.</span>
       </span>
     </footer>
   );
