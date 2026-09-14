@@ -66,7 +66,7 @@ export function AboutCard({
   return (
     <div
       className={cn(
-        "relative flex w-full flex-col gap-4 rounded-[34px] p-6 ring-2 ring-gray-200/70 drop-shadow-xs transition-all duration-300 hover:drop-shadow-lg",
+        "relative flex w-full flex-col gap-3 md:gap-4 rounded-[34px] p-6 ring-2 ring-gray-200/70 drop-shadow-xs transition-all duration-300 hover:drop-shadow-lg",
         styles.card,
       )}
     >

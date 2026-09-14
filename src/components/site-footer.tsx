@@ -24,46 +24,31 @@ export function SiteFooter({ onLogoClick }: SiteFooterProps) {
           href="https://github.com/CodeByMoonlight"
           className="cursor-pointer rounded-full border border-gray-800 bg-home-yellow p-1 sm:p-1.5 transition-all duration-300 hover:-translate-y-1 hover:border-home-dark-purple hover:bg-[#E3E6F7] hover:text-home-dark-purple hover:shadow-lg"
         >
-          <IconBrandGithub
-            className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6"
-            stroke={1.5}
-          />
+          <IconBrandGithub className="h-5 w-5 lg:h-6 lg:w-6" stroke={1.5} />
         </a>
         <a
           href="https://www.linkedin.com/in/alijah-valle-313246357"
           className="cursor-pointer rounded-full border border-gray-800 bg-home-yellow p-1 sm:p-1.5 transition-all duration-300 hover:-translate-y-1 hover:border-home-dark-purple hover:bg-[#E3E6F7] hover:text-home-dark-purple hover:shadow-lg"
         >
-          <IconBrandLinkedin
-            className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6"
-            stroke={1.5}
-          />
+          <IconBrandLinkedin className="h-5 w-5 lg:h-6 lg:w-6" stroke={1.5} />
         </a>
         <a
           href="https://www.facebook.com/AlijahValle.AV"
           className="cursor-pointer rounded-full border border-gray-800 bg-home-yellow p-1 sm:p-1.5 transition-all duration-300 hover:-translate-y-1 hover:border-home-dark-purple hover:bg-[#E3E6F7] hover:text-home-dark-purple hover:shadow-lg"
         >
-          <IconBrandFacebook
-            className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6"
-            stroke={1.5}
-          />
+          <IconBrandFacebook className="h-5 w-5 lg:h-6 lg:w-6" stroke={1.5} />
         </a>
         <a
           href="https://x.com/VA_ValleAlijah"
           className="cursor-pointer rounded-full border border-gray-800 bg-home-yellow p-1 sm:p-1.5 transition-all duration-300 hover:-translate-y-1 hover:border-home-dark-purple hover:bg-[#E3E6F7] hover:text-home-dark-purple hover:shadow-lg"
         >
-          <IconBrandX
-            className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6"
-            stroke={1.5}
-          />
+          <IconBrandX className="h-5 w-5 lg:h-6 lg:w-6" stroke={1.5} />
         </a>
         <a
           href="https://www.instagram.com/alijah_valle/"
           className="cursor-pointer rounded-full border border-gray-800 bg-home-yellow p-1 sm:p-1.5 transition-all duration-300 hover:-translate-y-1 hover:border-home-dark-purple hover:bg-[#E3E6F7] hover:text-home-dark-purple hover:shadow-lg"
         >
-          <IconBrandInstagram
-            className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6"
-            stroke={1.5}
-          />
+          <IconBrandInstagram className="h-5 w-5 lg:h-6 lg:w-6" stroke={1.5} />
         </a>
       </span>
       <span className="col-start-3 text-right text-[10px] sm:text-sm text-gray-800">
