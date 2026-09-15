@@ -19,7 +19,7 @@ export function SiteFooter({ onLogoClick }: SiteFooterProps) {
       >
         av
       </span>
-      <span className="col-start-2 flex items-center justify-center gap-1 md:gap-2 text-gray-800 lg:gap-4">
+      <span className="col-start-2 flex items-center justify-center gap-2 text-gray-800 lg:gap-4">
         <a
           href="https://github.com/CodeByMoonlight"
           className="cursor-pointer rounded-full border border-gray-800 bg-home-yellow p-1 sm:p-1.5 transition-all duration-300 hover:-translate-y-1 hover:border-home-dark-purple hover:bg-[#E3E6F7] hover:text-home-dark-purple hover:shadow-lg"

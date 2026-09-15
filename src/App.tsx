@@ -148,7 +148,7 @@ export default function Welcome() {
                   <ScrollReveal
                     direction="up"
                     delay={600}
-                    className="text-center text-4xl leading-12 font-bold text-gray-800/94 lg:text-[64px] lg:leading-20"
+                    className="text-center text-[42px] leading-14 font-bold text-gray-800/94 lg:text-[64px] lg:leading-20"
                   >
                     Greetings! I'm <AuroraText>Alijah Valle</AuroraText>. I
                     solve problems one query at a time
