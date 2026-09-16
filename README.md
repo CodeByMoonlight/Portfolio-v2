@@ -2,6 +2,8 @@
 
 This portfolio includes a polished landing page, an about section, a technology stack showcase, featured projects, and a contact section. It also includes social links and a resume download so visitors can learn more about my background in one place.
 
+Live Link: https://portfolio-v2-dnbf.vercel.app/
+
 ## Highlights
 
 - Responsive single-page portfolio with animated section reveals
