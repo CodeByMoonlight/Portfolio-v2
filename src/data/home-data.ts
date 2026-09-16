@@ -92,7 +92,7 @@ export const projectCards: ProjectCardData[] = [
         technologies: ['Next.js', 'Prisma', 'Tailwind CSS'],
         imageSrc: '/pet-adoption-pic.png',
         githubLink: 'https://github.com/CodeByMoonlight/Pet-Adoption-Website',
-        liveLink: 'https://pet-adoption-website-bd2x75v0s-codebymoonlights-projects.vercel.app/',
+        liveLink: 'https://pet-adoption-website-blue.vercel.app/',
     },
     {
         title: 'Pokemon Pokédex',
